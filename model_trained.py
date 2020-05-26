@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy
 import keras
 from keras.datasets import mnist
@@ -39,10 +33,3 @@ f= open("accuracy.txt","w+")
 f.write(str(accuracy))
 f.close()
 print("Accuracy for the model is : " , accuracy ,"%")
-
-
-# In[ ]:
-
-
-
-
